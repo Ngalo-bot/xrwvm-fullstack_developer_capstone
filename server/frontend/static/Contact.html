@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Contact Us</title>
+  <link rel="stylesheet" href="/static/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.0/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="/static/style.css">
+  <style>
+    body {
+      background-color: #f5f9fc;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    .hero-image {
+      width: 100%;
+      height: 400px;
+      object-fit: cover;
+      margin-bottom: 50px;
+    }
+
+    .contact-section {
+      width: 80%;
+      margin: 0 auto 50px;
+      display: flex;
+      gap: 40px;
+    }
+
+    .contact-image {
+      flex: 1;
+      border-radius: 15px;
+      object-fit: cover;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+
+    .contact-info-container {
+      flex: 1;
+      padding: 30px;
+      background-color: white;
+      border-radius: 15px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+
+    h1 {
+      color: darkturquoise;
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    .contact-info {
+      font-size: 1.2rem;
+      line-height: 2;
+    }
+
+    .contact-info i {
+      color: darkturquoise;
+      margin-right: 10px;
+    }
+
+    .navbar {
+      height: 1in;
+    }
+  </style>
+</head>
+<body>
+  <!-- Navigation Bar -->
+  <nav class="navbar navbar-expand-lg navbar-light" style="background-color:darkturquoise;">
+    <div class="container-fluid">
+      <h2 style="padding-right: 5%; color: white;">Dealerships</h2>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+        aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarText">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" style="font-size: larger;" href="/">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" style="font-size: larger;" href="/about">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" style="font-size: larger;" href="/contact">Contact Us</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Image -->
+  <!-- <img src="https://images.unsplash.com/photo-1489824904134-891ab64532f1?ixlib=rb-1.2.1&auto=format&fit=crop&w=1800&q=80" alt="Cars at dealership" class="hero-image"> -->
+<br>
+<br>
+<br>
+  <!-- Contact Section -->
+  <div class="contact-section">
+    <img src="/static/deal.jpg" alt="Contact us" class="contact-image">
+    
+    <div class="contact-info-container">
+      <h1>Contact Us</h1>
+      <div class="contact-info">
+        <p><i class="bi bi-geo-alt"></i> <strong>Address:</strong> 1234 Auto Lane, Carville, North America</p>
+        <p><i class="bi bi-telephone"></i> <strong>Phone:</strong> +1 (800) 123-4567</p>
+        <p><i class="bi bi-envelope"></i> <strong>Email:</strong> support@bestcars.com</p>
+        <p><i class="bi bi-globe"></i> <strong>Website:</strong> www.bestcars.com</p>
+        <p><i class="bi bi-clock"></i> <strong>Hours:</strong> Mon–Sat: 8:00 AM – 6:00 PM</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Optional Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
